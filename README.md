@@ -7,7 +7,7 @@ parameters {
 stages {
     stage('Checkout') {
         steps {
-            git branch: 'main', url: 'https://github.com/RavinaBodake/exp-7.git'
+            git branch: 'main', url: 'https://github.com/RavinaBodake/my-new-repo.git'
         }
     }
 
